@@ -11,6 +11,6 @@ window.onload = function() {
             alert('hi')
         } 
 
-      }, 30000)
+      }, 15000)
  
 }
