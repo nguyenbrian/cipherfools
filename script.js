@@ -4,7 +4,6 @@ window.onload = function() {
         var dialup = new Audio("dialup.mp3")
         var kanye = new Image();
         kanye.src = 'ThemanyfacesofKanye.jpg';
-        dialup.play();
       setTimeout(function() {
          $("body").css("animation","shake 0.82s cubic-bezier(.36,.07,.19,.97) both infinite")
          $("a").css("animation", "rainbow 8s infinite")
@@ -31,6 +30,6 @@ window.onload = function() {
 higher.play();
 $("#main").css("animation", "spin 10s linear infinite")
         }, 10000)
-      }, 26000)
+      }, 15000)
  
 }
