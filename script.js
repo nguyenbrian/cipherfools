@@ -5,4 +5,12 @@ window.onload = function() {
          $("a").css("animation", "rainbow 8s infinite")
       }, 10000)
  
+ 
+    setTimeout(function() {
+        for (i = 0; i < 10; i++) {
+            alert('hi')
+        } 
+
+      }, 30000)
+ 
 }
