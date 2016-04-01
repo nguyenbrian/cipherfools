@@ -1,7 +1,6 @@
 window.onload = function() {
         var music = new Audio("beautifulmorning.mp3")
         var higher = new Audio("canwegetmuchhigher.mp3")
-        var dialup = new Audio("dialup.mp3")
         var kanye = new Image();
         kanye.src = 'ThemanyfacesofKanye.jpg';
       setTimeout(function() {
