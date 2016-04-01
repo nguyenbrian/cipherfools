@@ -1,12 +1,14 @@
 window.onload = function() {
         var music = new Audio("beautifulmorning.mp3")
         var higher = new Audio("canwegetmuchhigher.mp3")
+        var dialup = new Audio("dialup.mp3")
         var kanye = new Image();
         kanye.src = 'ThemanyfacesofKanye.jpg';
+        dialup.play();
       setTimeout(function() {
          $("body").css("animation","shake 0.82s cubic-bezier(.36,.07,.19,.97) both infinite")
          $("a").css("animation", "rainbow 8s infinite")
-      }, 10000)
+      }, 15000)
  
  
     setTimeout(function() {
@@ -20,12 +22,15 @@ window.onload = function() {
         music.play();
         setTimeout(function() {
             higher.play();
+            alert("April Fools! Made with ♥ by Cipher :)")
             higher.addEventListener('ended', function() {
     this.currentTime = 0;
     this.play();
+  
 }, false);
 higher.play();
-        }, 20000)
-      }, 5000)
+$("#main").css("animation", "spin 10s linear infinite")
+        }, 10000)
+      }, 26000)
  
 }
